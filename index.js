@@ -11,3 +11,10 @@ function getComputerChoice(){
     }
 }
 
+function getHumanChoice(){
+    const getHumanChoice = prompt('Choose: rock, paper, scissors').toLocaleLowerCase()
+
+    return getHumanChoice
+    
+}
+
