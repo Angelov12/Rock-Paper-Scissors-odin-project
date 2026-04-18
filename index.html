@@ -1,29 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <section class="score-board-container">
-      <div class="score ">
-        <h6 class="player-name">Player</h6>
-        <p id="player-score">4</p>
-      </div>
-      <p class="vs">VS</p>
-      <div class="score">
-        <h6 class="cpu-name">Computer</h6>
-        <p id="computer-score">0</p>
-      </div>
-    </section>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+   <div class="rounds-container">
+      <h4 class="rounds">ROUND <span id="round">0</span>/05</h4>
+  </div>
+<section class="scoreboard-container">
+<div class="score-container">
+  <h6 class="score-name">YOU</h6>
+  <p id="user-score">00</p>
+</div>
+<div class="score-container">
+  <div class="line"></div>
+  <h4>VS</h4>
+  <div class="line"></div>
+</div>
+<div class="score-container">
+  <h6 class="score-name">CPU</h6>
+  <p id="cpu-score">00</p>
+</div>
+</section>
+
+</main>
+
+</body>
 </html>
