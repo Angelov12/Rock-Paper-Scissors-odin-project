@@ -9,13 +9,13 @@ function getComputerChoice() {
   }
 }
 
-function getHumanChoice() {
-  const getHumanChoice = prompt(
-    "Choose: rock, paper, scissors",
-  ).toLocaleLowerCase();
 
-  return getHumanChoice;
-}
+  document.querySelector(".btns-container").addEventListener("click", function (e) {
+      const btn = e.target.closest("button");
+      if (btn) {
+       console.log(btn.id)
+      }
+    });
 
 function playGame() {
   let humanScore = 0;
